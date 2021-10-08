@@ -312,6 +312,7 @@ h3 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	
+	
 }
 	
 .hero p {
@@ -368,13 +369,59 @@ a:hover {
 }
 
 .vitejte {
-	display: flex;
 	background-color: #96f3ea;
 	padding-top: 80px;
 	padding-bottom: 80px;
 
 	
 	
+}
+
+.vitejte_cukrarka {
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+	
+	
+
+
+}
+.levy_sloupec {
+	padding: 80px 0;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding: 30px 30px 30px 5px;
+	width: 50%;
+	
+	
+
+}
+
+.pravy_sloupec {
+	width: 50%;
+	
+}
+.tlacitko {
+	text-decoration: none;
+	border: 1px solid #f195b2;
+	background-color: #f195b2;
+	color: #ffffff;
+	padding: 15px 40px;
+	border-radius: 30px;
+	margin: 0;
+
+}
+
+.tlacitko:hover {
+	background-color: #d2567d;
+}
+
+.foto_cukrarky {
+	border-radius: 5px;
+}
+
+.vitejte p {
+	margin-bottom: 20px;
 }
 
 .nabidka {
@@ -411,26 +458,7 @@ section {
 	margin: auto;
 }
 
-.levy_sloupec {
-	max-width: 550px;
-	padding: 80px 0;
-	justify-content: space-between;
-	gap: 30px;
-	margin: auto;
-	
-	
 
-}
-
-.pravy_sloupec {
-	max-width: 550px;
-	padding: 80px 0;
-	justify-content: space-between;
-	gap: 30px;
-	margin: auto;
-	
-
-}
 
 .dorty {
 	display: flex;
@@ -477,3 +505,21 @@ img {
 	max-width: 1100px;
 	margin: auto;
 }
+
+.oba_sloupce {
+	display: flex;
+	column-gap: 30px;
+	max-width: 1100px;
+	margin: auto;
+
+}
+
+.pravy_sloupec2 {
+	border: none;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	
+}
+
+
+
