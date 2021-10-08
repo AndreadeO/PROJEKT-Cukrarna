@@ -28,8 +28,452 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
+/*
+body {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+section {
+	/*padding-top: 80px;
+	padding-bottom: 80px;*/
+	/*max-width: 1100px;
+	margin: auto;
+
+}
+
+.hlavicka {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+}
+
+
+.paticka {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+h1 {
+	font-size: 52px;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.25;
+	
+
+}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.hero {
+	background-color: rgb(37, 13, 13);
+	background-image: url(images/cupcake.jpg);
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+	/*width: 1100px;
+	margin: auto;*/
+
+/*
+}
+
+.hero p {
+	color: #ffffff;
+	font-size: 24px;
+	font-style: italic;
+}
+.menu li {
+	display: inline-block;
+	
+	
+
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	padding: 10px 15px;
+	
+
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+
+}
+
+
+
+.logo_cukrarny {
+	width: 170px;
+}
+
+a:hover {
+	background-color: #f195b2;
+}
+
+.vitejte {
+	display: flex;
+	background-color: #96f3ea;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: auto;
+	max-width: 1100px;
+	
+}
+
+.nase_vyrobky {
+	color: #ffffff;
+	text-decoration: none;
+	border: 1px solid #f195b2;
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+
+}
+
+.nase_vyrobky:hover {
+	background-color: #d2567d;
+}
+
+.nabidka {
+	display: flex;
+	background-color: #f0f0f0;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.pristup {
+	background-color: #ffffff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.levy_sloupec {
+	background-color: #ffffff;
+}*/
+/*
+.kontejner {
+	margin: auto;
+	
+}
+
+section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: auto
+	width: 
+
+}
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+
+}
+
+.logo_cukrarny {
+	width: 170px;
+
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+
+}
+.menu li {
+	display: inline-block;
+	
+	
+
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	padding: 10px 15px;
+	
+	
+	
+
+}
+
+a:hover {
+	background-color: #f195b2;
+}
+
+.hero {
+	background-color: rgb(37, 13, 13);
+	background-image: url(images/cupcake.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+	
+	
+.hero p {
+	color: #ffffff;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.vitejte {
+	display: flex;
+	background-color: #96f3ea;
+	/*padding-top: 80px;
+	padding-bottom: 80px;
+	/*margin: auto;*/
+	/*max-width: 1100px
+	
+}*/
 
 body {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
+	
+}
+
+h1 {
+	font-size: 52px;
+	color: #ffffff;
+	margin-top: 0;
+
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
 	margin: 0;
 }
 
+h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+}
+
+.hero {
+	background-color: rgb(37, 13, 13);
+	background-image: url(images/cupcake.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+	
+.hero p {
+	color: #ffffff;
+	font-size: 24px;
+	font-style: italic;
+
+}
+
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+
+}
+
+.logo_cukrarny {
+	width: 170px;
+
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+
+}
+.menu li {
+	display: inline-block;
+	
+	
+
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	padding: 10px 15px;
+	
+	
+	
+
+}
+
+a:hover {
+	background-color: #f195b2;
+}
+
+.vitejte {
+	display: flex;
+	background-color: #96f3ea;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	
+	
+}
+
+.nabidka {
+	display: flex;
+	background-color: #f0f0f0;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.pristup {
+	background-color: #ffffff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+
+}
+
+.paticka {
+	background-color: #303339;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.nadpis {
+	max-width: 1100px;
+	padding: 80px 0;
+	margin: auto;
+}
+
+.levy_sloupec {
+	max-width: 550px;
+	padding: 80px 0;
+	justify-content: space-between;
+	gap: 30px;
+	margin: auto;
+	
+	
+
+}
+
+.pravy_sloupec {
+	max-width: 550px;
+	padding: 80px 0;
+	justify-content: space-between;
+	gap: 30px;
+	margin: auto;
+	
+
+}
+
+.dorty {
+	display: flex;
+	column-gap: 30px;
+
+}
+
+.dorty img {
+	width: 100%;
+}
+
+.dort1 {
+	margin-left: 20px;
+}
+
+.dort4 {
+	margin-right: 20px;
+}
+
+.dorty h3 {
+	text-align: center;
+	color: #3e606b;
+	padding: 20px;
+}
+
+.dorty p {
+	padding: 0 20px 20px 20px;
+	margin: 0;
+}
+
+.dort1,
+.dort2,
+.dort3,
+.dort4 {
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+img {
+	border-radius: 5px 5px 0 0;
+}
+
+.dnesni_nabidka {
+	max-width: 1100px;
+	margin: auto;
+}
